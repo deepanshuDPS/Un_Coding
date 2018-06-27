@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/question"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:drawable/dialog_holo_light_frame"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:textAlignment="center"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="#000000"
+    android:textSize="15dp"
+    android:textStyle="normal|bold"
+    android:typeface="serif">
+
+</TextView>

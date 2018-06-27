@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <item
+            android:id="@+id/save"
+            android:icon="@drawable/savei"
+            android:orderInCategory="100"
+            android:title="Save Code" />
+        <item
+            android:id="@+id/output"
+            android:orderInCategory="100"
+            android:title="Output"
+            android:icon="@drawable/output"/>
+        <item
+            android:id="@+id/back"
+            android:orderInCategory="100"
+            android:icon="@drawable/chback"
+            android:title="Change Background"/>
+
+</menu>

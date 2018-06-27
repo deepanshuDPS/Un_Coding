@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">UN_CODING</string>
+    <string name="operators">"\nOPERATORS"</string>
+    <string name="ifelseswitch">"IF-ELSE \n AND SWITCH"</string>
+    <string name="loops">"\nLOOPS"</string>
+    <string name="functions">"\nFUNCTIONS"</string>
+    <string name="arrstring">"ARRAYS \nAND STRINGS"</string>
+    <string name="pointers">"\nPOINTERS"</string>
+    <string name="structures">"\nSTRUCTURES"</string>
+    <string name="filehand">"FILE \n HANDLING"</string>
+    <string name="recursion">"\nRECURSION"</string>
+    <string name="opps">"OOPs\nCONCEPTS</string>
+    <string name="methods">"\nMETHODS"</string>
+    <string name="excphand">"EXCEPTION\nHANDLING"</string>
+    <string name="threading">"MULTI-\nTHREADING</string>
+    <string name="ifelse">"\nIF-ELSE"</string>
+    <string name="liststr">"LISTS\nAND STRINGS"</string>
+    <string name="tupdic">"TUPLES AND\nDICTIONARIES"</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="menu">Extras</string>
+    <string name="wex">With\nExtension</string>
+    <string name="wtex">Without\nExtension</string>
+
+    <string name="dfprt">"\nD - Definitions\nF - Facts\nP - Points to Remember\nR - References\nT - Tips
+About the programming languages to make your coding better with good understanding of concepts and logics of programming\n"</string>
+    <string name="title_activity_start_page">StartPage</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+</resources>

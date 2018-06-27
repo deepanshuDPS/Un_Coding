@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dfprts"
+        android:orderInCategory="100"
+        android:title="D. F. P. R. T."
+        android:icon="@drawable/notes"/>
+
+    <item
+        android:id="@+id/PracQues"
+        android:orderInCategory="100"
+        android:title="Practice Questions"
+        android:icon="@drawable/list"/>
+    <item
+        android:id="@+id/rateus"
+        android:icon="@drawable/rate"
+        android:orderInCategory="100"
+        android:title="Rate Us" />
+
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/help"
+        android:orderInCategory="100"
+        android:title="Help" />
+    <item
+        android:id="@+id/extras"
+        android:orderInCategory="100"
+        android:title="Extras" >
+        <menu>
+            <item
+                android:id="@+id/symbols"
+                android:icon="@drawable/symbols"
+                android:orderInCategory="100"
+                android:title="Symbols and More" />
+            <item
+                android:id="@+id/intQues"
+                android:icon="@drawable/intques"
+                android:orderInCategory="100"
+                android:title="Interview Questions" />
+            <item
+                android:id="@+id/saved"
+                android:icon="@drawable/savedfile"
+                android:orderInCategory="100"
+                android:title="Saved Files" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.Rowdy.Apps.un_coding.Output">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/rootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*">
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#191970"
+                    app:titleTextAppearance="@style/Toolbar.Normal"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" >
+                </android.support.v7.widget.Toolbar>
+            </android.support.design.widget.AppBarLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:id="@+id/code_back">
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/vscrollview"
+                    android:fillViewport="true">
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                        <TextView
+                            android:id="@+id/output"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="this space is for output"
+                            android:textColor="#ffffff"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:typeface="monospace" />
+                </HorizontalScrollView>
+                </ScrollView>
+                <TableLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="15dp">
+                    <TableRow>
+                        <Button
+                            android:id="@+id/prev"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_column="0"
+                            android:background="@drawable/prevbutton"
+                            android:onClick="previous"
+                            android:layout_marginRight="5dp"/>
+
+                        <Button
+                            android:id="@+id/next"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_column="1"
+                            android:background="@drawable/nextbutton"
+                            android:onClick="next"/>
+
+                    </TableRow>
+                </TableLayout>
+                <TableLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp">
+                    <TableRow>
+
+                        <Button
+                            android:id="@+id/zout"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_column="0"
+                            android:background="@drawable/zoomout"
+                            android:onClick="zoomOut"
+                            android:layout_marginRight="5dp"/>
+
+                        <Button
+                            android:id="@+id/zin"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_column="1"
+                            android:background="@drawable/zoomin"
+                            android:onClick="zoomIn"/>
+                    </TableRow>
+                </TableLayout>
+            </RelativeLayout>
+        </TableLayout>
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

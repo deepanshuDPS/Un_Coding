@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    tools:context="com.Rowdy.Apps.un_coding.DFPRT">
+
+   <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/rootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#7339ac"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="20dp"
+                                android:id="@+id/title"
+                                android:layout_centerVertical="true"
+                                android:layout_alignParentStart="true"
+                                android:text="D. F. P. R. T. "
+                                android:textStyle="bold"
+                                android:textColor="#ffffff" />
+
+                            <Button
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:onClick="info"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignRight="@id/title"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/info"
+                                />
+                        </RelativeLayout>
+                </android.support.v7.widget.Toolbar>
+
+            </android.support.design.widget.AppBarLayout>
+            <FrameLayout android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <View android:layout_width="match_parent"
+                    android:layout_height="6dp"
+                    android:background="@drawable/shadow"/>
+            </FrameLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+               <ExpandableListView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:id="@+id/elistview"
+                   android:layout_marginTop="5dp"/>
+
+            </RelativeLayout>
+        </TableLayout>
+    </android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>
