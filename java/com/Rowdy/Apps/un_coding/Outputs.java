@@ -19,7 +19,7 @@ public class Outputs
     int cpparrstring[]={R.raw.ocppars1,R.raw.ocppars2,R.raw.ocppars3,R.raw.ocppars4,R.raw.ocppars5};
     int cpppointers[]={R.raw.ocpppoint1,R.raw.ocpppoint2,R.raw.ocpppoint3,R.raw.ocpppoint4};
     int cppstructures[]={R.raw.ocppstruct1,R.raw.ocppstruct2,R.raw.ocppstruct3};
-    int cppopps[]={R.raw.ocppopps1,R.raw.ocppopps2,R.raw.ocppopps3,R.raw.ocppopps4,R.raw.ocppopps5};
+    int cppopps[]={R.raw.ocppopps1,R.raw.ocppopps2,R.raw.ocppopps3,R.raw.ocppopps4,R.raw.ocppopps5,R.raw.ocppopps6};
     int cppfilehand[]={R.raw.oallfh,R.raw.oallfh,R.raw.oallfh,R.raw.oallfh,R.raw.oallfh,R.raw.oallfh};
     int cpprecursion[]={R.raw.ocpprec1,R.raw.ocpprec2,R.raw.ocpprec3};
     int javaoperators[]={R.raw.ojavaop1,R.raw.ojavaop2,R.raw.ojavaop3,R.raw.ojavaop4};

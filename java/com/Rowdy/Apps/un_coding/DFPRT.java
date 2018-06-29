@@ -119,7 +119,7 @@ public class DFPRT extends AppCompatActivity
         else
             type=5;
 
-        for(int i=10;i>0;i--)
+        for(int i=30;i>0;i--)
         {
             if(clicked.indexOf(""+i)>-1)
             {

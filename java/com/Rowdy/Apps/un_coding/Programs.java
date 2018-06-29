@@ -18,7 +18,7 @@ public class Programs
     int cpparrstring[]={R.raw.cppars1,R.raw.cppars2,R.raw.cppars3,R.raw.cppars4,R.raw.cppars5};
     int cpppointers[]={R.raw.cpppoint1,R.raw.cpppoint2,R.raw.cpppoint3,R.raw.cpppoint4};
     int cppstructures[]={R.raw.cppstruct1,R.raw.cppstruct2,R.raw.cppstruct3};
-    int cppopps[]={R.raw.cppopps1,R.raw.cppopps2,R.raw.cppopps3,R.raw.cppopps4,R.raw.cppopps5};
+    int cppopps[]={R.raw.cppopps1,R.raw.cppopps2,R.raw.cppopps3,R.raw.cppopps4,R.raw.cppopps5,R.raw.cppopps6};
     int cppfilehand[]={R.raw.cppfh1,R.raw.cppfh2,R.raw.cppfh3,R.raw.cppfh4,R.raw.cppfh5,R.raw.cppfh6};
     int cpprecursion[]={R.raw.cpprec1,R.raw.cpprec2,R.raw.cpprec3};
     int javaoperators[]={R.raw.javaop1,R.raw.javaop2,R.raw.javaop3,R.raw.javaop4};
